@@ -1,0 +1,105 @@
+body{
+    text-align: center;
+    padding-top: 7vh;
+    background-color: 
+    #eeeeee;
+}
+
+#logo>img{
+width: 6vw;
+margin-bottom: 3vh;
+}
+#container{
+    margin: auto;
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 575px;
+    padding: 2em;
+}
+
+#join-signin{
+    display: flex;
+    font-family: Verdana, Arial, sans-serif;
+}
+#join-signin>div{
+    margin: auto;
+    border-bottom: 1px solid #dbdbdb;
+    width: 50%;
+    height: 2em;
+
+}
+
+#join-signin>div:nth-child(1)>a{
+    text-decoration: none;
+    color: grey;
+}
+#join-signin>:nth-child(3){
+    border-bottom:1px solid blue;
+}
+
+#credentials{
+}
+#credentials>form>h4{
+    color: #767676;
+}
+#credentials>form>input{
+    width: 60%;
+    height: 3em;
+}
+
+#signin-button{
+    margin-top: 2em;
+    background-color: #2d2d2d;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.10em;
+}
+
+#three-icons{
+    display: flex;
+    margin: auto;
+    margin: auto;
+    margin-bottom: 2em;
+    /* border: 1px solid black; */
+}
+#three-icons>div{
+    display: flex;
+    margin: auto;
+    border: 2px solid #dbdbdb;
+    color: grey;
+    font-size: 75%;
+    gap: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .50em;
+    width: 12em;
+    justify-content: center;
+}
+#three-icons>div>img{
+    /* margin: auto; */
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}#sign-up-with>h3{
+    padding: 2em;
+}
+#signin-with>a{
+text-decoration: none;
+color: #767676;
+}
+#signin-with>a:hover{
+    text-decoration: underline;
+
+}
+
+#TandC{
+    display: flex;
+    color: grey;
+
+}
+#TandC>div{
+    margin: auto;
+}
+#TandC>div>a{
+    color: gray;
+}

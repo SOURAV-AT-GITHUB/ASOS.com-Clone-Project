@@ -1,0 +1,19 @@
+#category {
+    margin-left: -10px;
+    background-color: #525050;
+    color: white;
+  }
+  #category-inside {
+    margin-left: 3em;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+  }
+  #category-inside > div {
+    padding: 1em;
+  }
+  #category-inside > div:hover {
+    background-color: #eeeeee;
+    color: black;
+  
+  }

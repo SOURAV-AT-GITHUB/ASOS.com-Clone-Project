@@ -1,0 +1,54 @@
+@import url(Importable_CSS_files/top-navbar.css);
+@import url(Importable_CSS_files/elite-thirtyOff\(not-for-index\).css);
+@import url(Importable_CSS_files/category\(both\).css);
+@import url(Importable_CSS_files/bottom.css);
+
+
+#products-section{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: auto;
+  margin-top: 2em;
+  /* border: 2px solid black; */
+  padding: 1.5em;
+  gap: 1.5em;
+}
+.singleDivs{
+  height: 500px;
+  /* border: 2px solid black; */
+}
+.singleDivs:hover{
+  cursor: pointer;
+}
+.imageDiv{
+  height: 85%;
+}
+.imageDiv>img{
+  height: 100%;
+  width: 100%;
+}
+.titleDiv{
+  width: 350px; 
+  height: 5%;
+  /* border: 2px solid black; */
+}
+.titleDiv>p{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.priceDiv{
+font-weight: bolder;
+  height: 5%;
+}
+#viewed{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#viewed>p{
+  border-bottom: 2px solid blue;
+  width: fit-content;
+  margin: auto;
+  padding: 1em;
+}

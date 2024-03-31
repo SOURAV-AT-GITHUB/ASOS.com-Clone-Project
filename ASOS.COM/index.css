@@ -1,0 +1,117 @@
+@import url(Importable_CSS_files/top-navbar.css);
+@import url(Importable_CSS_files/bottom.css);
+
+
+#thirtyoff{
+  margin-left: -7px;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  background-color: #9cf0e0;
+  width: auto;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#thirtyoff>div:nth-child(1),#thirtyoff>div:nth-child(3){
+  border: 2px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.container{
+  height: 65vh;
+  background-image: url('index\ images/container.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+  width: 93vw;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32vh;
+}
+
+#container-middle{
+  justify-content: center;
+  align-items: center;
+}
+#mid-top{
+  /* border: 2px solid black; */
+  width: fit-content;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+#mid-top>div:nth-child(1){
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  font-size: 4em;
+  padding: .1em;
+  width: fit-content;
+  background-color: black;
+  color: white;
+
+}
+#mid-top>div:nth-child(2){
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  font-size: 1em;
+  padding: .1em;
+  width: fit-content;
+  background-color: black;
+  color: white;
+}
+#mid-bottom{
+  width: fit-content;
+  margin: auto;
+  margin-top: 2.5em;
+  /* border: 2px solid black; */
+}
+#mid-bottom>button{
+font-family: sans-serif;
+font-size: 110%;
+font-weight: bold;
+border: none;
+padding: .70em;
+width: 10em;
+cursor: pointer;
+margin: .5em;
+}
+
+#container-bottom{
+margin-top: 25vh;
+  background-color: #2d2d2d;
+  color: white;
+  display: flex;
+  line-height: 0;
+justify-content: space-between;
+  position: relative;
+}
+#container-bottom>div{
+width: 50%;
+text-align: center;
+}
+/* ___________________________ */
+
+
+
+/* Media Query Section */
+@media (max-width: 768px){
+.container{
+  background-image: url('index\ images/container at 768px.webp');
+}
+#container-bottom>div:nth-child(2){
+  display: none;
+}
+#container-bottom>div:nth-child(1){
+  width: 100%;
+  line-height: 1
+}
+#mid-bottom{
+  display: block;
+}
+}

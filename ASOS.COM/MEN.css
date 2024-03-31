@@ -1,0 +1,151 @@
+@import url(Importable_CSS_files/top-navbar.css);
+@import url(Importable_CSS_files/elite-thirtyOff\(not-for-index\).css);
+@import url(Importable_CSS_files/category\(both\).css);
+@import url(Importable_CSS_files/bottom.css);
+
+#leftnav>div:nth-child(3){
+    background-color: #525050;
+}
+#leftnav>div:nth-child(3):hover{
+    background-color: #525050;
+}
+/* #category {
+  margin-left: -10px;
+  background-color: #525050;
+  color: white;
+}
+#category-inside {
+  margin-left: 3em;
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
+#category-inside > div {
+  padding: 1em;
+}
+#category-inside > div:hover {
+  background-color: #eeeeee;
+  color: black;
+
+} */
+
+
+#containerOne{
+  /* width: 100vw; */
+  /* margin: 8em; */
+  margin-top: 1em;
+  margin-left: 0;
+  left: 0;
+  position: static;
+  background-image: url(MEN_images/containerOne.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  /* background-position: center; */
+  /* background-color: #26e066; */
+  height: 42.5vw;
+  cursor: pointer;
+}
+
+
+#containerTwo{
+  margin: auto;
+  margin-top: 2em;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+#containerTwo>div{
+  width: 20%;
+  font-family: futura-pt, FuturaStd, Helvetica, Arial, sans-serif;
+}
+#containerTwo>div:hover{
+  cursor: pointer;
+}
+#containerTwo>div>img{
+width: 100%;
+}
+
+
+
+#containerThree{
+  margin-top: 2vw;
+  text-align: center;
+  background-image: linear-gradient(to right,#9cf0e0,#9447fe);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+#containerThree>div{
+  height: 12vw;
+
+  font-size: 1.1em;
+  line-height: 0.75;
+  padding-top: 1em;
+ 
+}
+#containerThree>div>h1:nth-child(1){
+  color: white;
+  border: 2px solid white;
+  width: fit-content;
+  margin: auto;
+  padding: .5em;
+  border-radius: 10em;
+}
+#containerThree>div>h1:nth-child(2){
+  color: white;
+}
+#containerThree>div>h1:nth-child(3){
+  margin: auto;
+  padding: .5em;
+  border-radius: 10em;
+  width: fit-content;
+  background-color: white;
+  width: 10em;
+}
+
+#containerFour{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 77.5vw;
+  margin: auto;
+  margin-top: 2em;
+}
+#containerFour>div{
+  margin: auto;
+}
+#containerFour>div:hover{
+  cursor: pointer;
+}
+#containerFour>div>img{
+  width: 34em;
+}
+.shop{
+  border: 2px solid black;
+  width: fit-content;
+  margin: auto;
+  padding: 1em;
+}
+.shop:hover{
+  background-color: black;
+  color: white;
+}
+#trendingBrands{
+  width: auto;
+  text-align: center;
+  line-height: 0;
+}
+#trendingBrands img{
+width: 15%;
+opacity: 0.6;
+}
+
+#brands:hover{
+  opacity: 1;
+}
+
+
+
+
+

@@ -1,0 +1,73 @@
+/* ---------------------- */
+#social-payment{
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    width: 90%;
+    background-color: white;
+  }
+  #social{
+    margin: auto;
+    gap: 15px;
+    width:35%;
+    margin-left: 15vw;
+  }
+  #social>a>img{
+    height: 4vh;
+    border-radius: 50%;
+    margin-right: 4vw;
+  }
+  #social>a>img:hover{
+    border: 2px solid blue;
+  }
+  #payment{
+    width:45%;
+    margin: auto;
+  }
+  #payment>img{
+    height: 3vh;
+    margin-left: 4vw;
+  }
+  
+  /* ___________________________ */
+
+#bottom{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eeeeee;
+    font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+    font-size: 85%;
+    color: grey;
+  }
+  #bottom a{
+    color: grey;
+    text-decoration: none;
+  }
+  #bottom a:hover{
+    color: blue;
+  }
+  #bottom>div{
+    margin: auto;
+  }
+  
+  #bottom img{
+    height: 3.5vh;
+    margin: auto;
+  }
+  
+  
+  #footer{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 5px;
+    color: #536065;
+  }
+  
+  #footer>a{
+    text-decoration: none;
+    color: #536065;
+    
+  }

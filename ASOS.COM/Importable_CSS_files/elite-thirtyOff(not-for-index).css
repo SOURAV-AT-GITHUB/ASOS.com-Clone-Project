@@ -1,0 +1,42 @@
+#elite-delivery{
+    display: flex;
+    background-color: red ;
+    font-weight: bolder;
+    margin-left: -10px;
+  }
+  #elite-delivery>div{
+    padding: 1em;
+  }
+  #elite-delivery a{
+    text-decoration: none;
+    color: black;
+  }
+  #elite-delivery div:nth-child(1){
+    width: 50%;
+    text-align: center;
+    background-color: #9cf0e0 ;
+  }
+  #elite-delivery>div:nth-child(2){
+    text-align: center;
+    width: 50%;
+    background-color: #f5f5f2 ;
+  }
+  
+  #elite-delivery>div>a:hover{
+    opacity: 0.5;
+  }
+  
+  #thirtyoff{
+    top: 0;
+    text-align: center;
+    height: 7vw;
+    background-color: #9cf0e0;
+    margin-left: -10px;
+    border: 1px solid transparent ;
+    line-height: 0.90;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #thirtyoff>h1{
+    font-size: 200%;
+    font-weight:  1000;
+  }
