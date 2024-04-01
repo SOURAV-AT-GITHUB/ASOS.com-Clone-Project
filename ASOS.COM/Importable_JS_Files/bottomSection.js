@@ -46,19 +46,19 @@ function bottom(){
 
   <div>
     <h4>SHOPPING FROM:</h4>
-    <div><p>Yore're in</p><img src="index images/india.png" alt=""><h3>| CHANGE</h3></div>
+    <div id='you-are-in'><p>Yore're in</p><img src="index images/india.png" alt=""><h3>| CHANGE</h3></div>
     <p>Some of our international sites:</p>
-    <div>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+    <div id='flags'>
+      <img src="index images/spain-flag.png" alt="spain">
+      <img src="index images/germany-flag.png" alt="germany">
+      <img src="index images/australia-flag.png" alt="australia">
+      <img src="index images/france-flag.png" alt="france">
+      <img src="index images/us-flag.png" alt="us">
+      <img src="index images/denmark-flag.png" alt="denmark">
+      <img src="index images/italy-flag.png" alt="italy">
+      <img src="index images/france-flag.png" alt="france">
+      <img src="index images/poland-flag.png" alt="poland">
+      <img src="index images/sweden-flag.png" alt="sweden">
     </div>
   </div>`
 }

@@ -14,7 +14,7 @@ function navEventListners(){
   
     if (currentScroll > lastScrollTop) {
       // Scroll down
-      document.getElementById("navbar").style.top = "-50px"; // Adjust according to navbar height
+      document.getElementById("navbar").style.top = "-100px"; // Adjust according to navbar height
     } else {
       // Scroll up
       document.getElementById("navbar").style.top = "0";
