@@ -28,23 +28,7 @@ Single Product Page
 <image src='Demo_Images/Single-product-page.png' alt='Single product Page'/>
 Cart Page
 <image src='Demo_Images/Cart-page.png' alt='Cart Page'/>
-Installation
-To get started with this project, follow these steps:
-
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/your-repository-name.git
-Navigate to the Project Directory:
-
-bash
-Copy code
-cd your-repository-name
-Open the Project:
-Open index.html in your preferred web browser to view the homepage.
-
-Usage
+# Usage
 Browse Pages: Navigate through the various pages by using the links in the navbar.
 Search for Products: Use the search bar in the navbar to find specific products.
 Account Management: Hover over the account icon to access login or sign-up options.
