@@ -1,8 +1,13 @@
 function searchFunction(){
   document.getElementById('searchButton').addEventListener('click',()=>{
     let input=document.getElementById('searchbox').value
-    localStorage.setItem('search',JSON.stringify({input:input}))
+    if(input){
+          localStorage.setItem('search',JSON.stringify({input:input}))
     window.location.href='All-products.html'
+    }
+    else{
+      alert(`Please enter the product name you are searching for`)
+    }
   })
 }
 
